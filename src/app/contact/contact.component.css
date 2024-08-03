@@ -1,0 +1,24 @@
+span {
+    position: relative;
+  }
+  span::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color:  #2C3E50;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+  }
+  span::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+  }
+  .color{
+    color:  #2C3E50;
+  }

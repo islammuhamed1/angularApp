@@ -1,0 +1,17 @@
+<section>
+  <div class="container my-5">
+    <div class="row gy-5 py-5">
+        @for (g of gallery; track $index) {
+            <div class="col-md-4 text-center">
+                <img [src]="g.imgSrc" class="w-75" alt="nature" />
+            </div>
+            }
+    </div>
+  </div>
+</section>
+@defer (on viewport) {
+  <app-recommend></app-recommend>
+}
+@placeholder(minimum 7s) {
+  <h2 class="pb-5 text-center text-bg-info w-50 mx-auto">The Recommendation List...</h2>
+}

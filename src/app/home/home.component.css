@@ -1,0 +1,30 @@
+.home {
+  background-color: #1abc9c;
+}
+.w-custom {
+  width: 20%;
+}
+img {
+  width: 100%;
+}
+span {
+  position: relative;
+}
+span::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  left: 120%;
+  top: 50%;
+}
+span::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  right: 120%;
+  top: 50%;
+}

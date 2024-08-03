@@ -1,0 +1,14 @@
+<section>
+  <hr class="w-75 mx-auto" />
+  <h2 class="text-center">Recommended!</h2>
+  <hr class="w-75 mx-auto" />
+  <div class="container my-5">
+    <div class="row gy-5 py-5">
+        @for (g of gallery; track $index) {
+            <div class="col-md-4 text-center">
+                <img [src]="g.imgSrc" class="w-75" alt="nature" />
+            </div>
+            }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+.bgcolor{
+    background-color: #2C3E50;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon i {
+  color: white;
+}
+.copyright{
+    background-color: #1A252F;
+}

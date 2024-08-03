@@ -1,0 +1,25 @@
+.about{
+    background-color: #1ABC9C;
+}
+span {
+    position: relative;
+  }
+  span::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+  }
+  span::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+  }
+  

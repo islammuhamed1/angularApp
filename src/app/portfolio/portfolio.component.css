@@ -1,0 +1,43 @@
+.customspan {
+    position: relative;
+  }
+  
+  .customspan::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+  }
+  
+  .customspan::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+  }
+  
+  .cust-color {
+    color: #2C3E50;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  .adjust {
+    inset: 0;
+    background-color: #29B197;
+    opacity: 0;
+    transition: opacity 0.6s;
+  }
+  
+  .hover:hover .adjust {
+    opacity: 1;
+  }
+  
